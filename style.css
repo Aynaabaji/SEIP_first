@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    padding-bottom: 2rem;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.btn{
+    padding: 1rem 1.8rem;
+    font-size: 15px;
+    font-style: bold;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.btn-bg{
+    background: white;
+    color:#000;
+}
+
+.btn-bg-ppl{
+    background: purple;
+    color:#fff;
+}
+
+.btn-bdr{
+    border: none;
+}
+
+
+/* Header section starts */
+header{
+    background: black;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding-top: 2rem;
+    position: relative;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h1{
+    padding: 2rem 0;
+}
+header span{
+    
+    font-size: 56px;
+    border: 0.3rem solid #fff;
+    padding: 0 0.7rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+header>div>p{
+    width: 50%;
+    margin-left: 25%;
+}
+
+header>p{
+    width: 1.5rem;
+    aspect-ratio: 1/1;
+    position: absolute;
+    bottom: 2rem;
+    border: 0.1rem solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* Header section ends */
+
+
+/* bio section starts */
+.bio{
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* bio section ends */
+
+
+/* common heading section starts */
+.common-heading{
+    padding: 4rem 0;
+    text-align: center;
+    font-size: 60px;
+}
+
+.c-heading-wt{
+    color: #fff;
+}
+/* common heading section ends */
+
+/* wido section starts */
+.wido{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.8rem;
+}
+
+.wid>h3{
+    padding-bottom: 1rem;
+}
+/* wido section ends */
+
+
+/* my work section starts */
+.my-work{
+    background: black;
+    margin-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+
+.link-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-flex a{
+    color: lightgrey;
+    padding: 0.5rem 0;
+}
+
+.pics-on-work{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.pow{
+    background: purple;
+    aspect-ratio: 1/1;
+}
+
+.but{
+    text-align: center;
+}
+
+/* my work section ends */
+
+/* photography section starts */
+.phot-text{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.photo-but{
+    text-align: center;
+}
+/* photography section ends */
+
+/* contact section starts */
+.contact{
+    background: black;
+    margin-top: 1.5rem;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+.contact-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ic-one{
+    color: #fff;
+    font-size: 200pt;
+}
+
+.contact-flex input{
+    padding: 1rem 1.5rem;
+    border: none;
+}
+
+
+#inptext{
+    width: 25rem;
+}
+
+#inpsub{
+    background: purple;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+/* contact section ends */
+
+/* footer section starts */
+footer{
+    text-align: center;
+}
+
+.foot-div{
+    padding: 3rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.fakab{
+    display: flex;
+    justify-content: center;
+}
+
+.faka{
+    height: 1.5rem;
+    width: 15rem;
+    background: #000;
+}
+.tut{
+    padding-top: 1.5rem;
+}
+/* footer section ends */
